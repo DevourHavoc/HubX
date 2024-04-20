@@ -37,9 +37,30 @@ ArsenalTab:AddButton({
 end 
 })
 
--- Bedwars Tan
+-- Bedwars Tab
 local BedwarsTab = Window:MakeTab({
 	Name = "Bedwars",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+BedwarsTab:AddButton({
+	Name = "CocoSploit",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/cocotv666/script/main/Coco_GodSploit_Config"))()  
+end 
+})
+
+BedwarsTab:AddButton({
+	Name = "Raven",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/cocotv666/script/main/RavenB4Unpatched.lua"))()  
+end 
+})
+
+BedwarsTab:AddButton({
+	Name = "Vape",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end 
 })
