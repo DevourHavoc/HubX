@@ -18,7 +18,7 @@ local CreditsTab = Window:MakeTab({
 
 CreditsTab:AddParagraph("Credits:","DevourHavoc, Owner & Head Developer.")
 
-CreditsTab:AddParagraph("Credits:","Join our official server, discord.gg/")
+CreditsTab:AddParagraph("Join our Discord!:","discord.gg/")
 
 -- Arsenal Tab
 local ArsenalTab = Window:MakeTab({
