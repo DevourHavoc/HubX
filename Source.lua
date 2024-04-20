@@ -2,17 +2,17 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "HubX", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-local ArsenalTab = Window:MakeTab({
+local PlayerTab = Window:MakeTab({
 	Name = "Arsenal",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Section = ArsenalTab:AddSection({
+local Section = PlayerTab:AddSection({
 	Name = "NAME OF SCRIPT"
 })
 
-Arsenal:AddButton({
+Player:AddButton({
 	Name = "TbaoHub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
