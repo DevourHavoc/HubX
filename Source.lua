@@ -29,3 +29,10 @@ ArsenalTab:AddButton({
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter', true))()  
 end 
 })
+
+ArsenalTab:AddButton({
+	Name = "Tect Menu",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()  
+end 
+})
