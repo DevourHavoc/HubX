@@ -16,7 +16,7 @@ local CreditsTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-CreditsTab:AddParagraph("Credis:","DevourHavoc, Owner & Head Developer.")
+CreditsTab:AddParagraph("Credits:","DevourHavoc, Owner & Head Developer.")
 
 -- Arsenal Tab
 local ArsenalTab = Window:MakeTab({
