@@ -24,4 +24,5 @@ Tab:AddButton({
 	Name = "TbaoHub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))() 
-	})
+	end 
+})
