@@ -82,13 +82,6 @@ local JBTab = Window:MakeTab({
 })
 
 JBTab:AddButton({
-	Name = "Project Auto",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
-end 
-})
-
-JBTab:AddButton({
 	Name = "Universal Farm",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
@@ -96,7 +89,14 @@ end
 })
 
 JBTab:AddButton({
-	Name = "Sensation V2 (Key-6u56jedfgh4",
+	Name = "Project Auto",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+end 
+})
+
+JBTab:AddButton({
+	Name = "Sensation V2 (Key - 6u56jedfgh4)",
 	Callback = function()
       		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))()
 end 
