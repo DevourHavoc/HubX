@@ -96,8 +96,29 @@ end
 })
 
 JBTab:AddButton({
-	Name = "Sensation V2 (Key - 6u56jedfgh4)",
+	Name = "TempCode",
 	Callback = function()
-      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))()
+      		loadstring(game:HttpGet("https://dropfarms.xyz/free.lua"))()
+end 
+})
+
+-- Bladeball
+local BladeBallTab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+BladeBallTab:AddButton({
+	Name = "Plutonium",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()  
+end 
+})
+
+BladeBallTab:AddButton({
+	Name = "Raven",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/goinglikeatrainlol/c19adfa90a95db3fb8fcea27a87d3254/raw/8a84b455a0ad6eb75df333dfc7598916d0547eb8/mysticware%2520remake"))()  
 end 
 })
