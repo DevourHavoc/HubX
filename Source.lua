@@ -2,17 +2,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "HubX", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-local Tab = Window:MakeTab({
-	Name = "Arsenal",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "TbaoHub"
-	
-})
-
 OrionLib:MakeNotification({
 	Name = "Made by Havoc",
 	Content = "Enjoy Exploiting!",
@@ -20,9 +9,23 @@ OrionLib:MakeNotification({
 	Time = 3
 })
 
-Tab:AddButton({
+-- Arsenal Tab
+local ArsenalTab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+ArsenalTab:AddButton({
 	Name = "TbaoHub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))() 
-	end 
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()  
+end 
+})
+
+ArsenalTab:AddButton({
+	Name = "Darkrai X",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter', true))()  
+end 
 })
