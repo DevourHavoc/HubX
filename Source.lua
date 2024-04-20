@@ -87,3 +87,10 @@ JBTab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
 end 
 })
+
+JBTab:AddButton({
+	Name = "Universal Farm",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
+end 
+})
