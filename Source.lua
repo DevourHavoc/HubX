@@ -25,9 +25,3 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))() 
 	})
-
-Tab:AddButton({
-	Name = "Darkrai X",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter', true))() 
-	})
