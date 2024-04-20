@@ -81,7 +81,7 @@ local JBTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-BedwarsTab:AddButton({
+JBTab:AddButton({
 	Name = "Project Auto",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
