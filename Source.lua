@@ -104,28 +104,29 @@ JBTab:AddButton({
 end 
 })
 
--- Bladeball
-local BladeBallTab = Window:MakeTab({
-	Name = "Blade Ball",
+-- Doors
+local DoorsTab = Window:MakeTab({
+	Name = "Doors",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-BladeBallTab:AddButton({
-	Name = "Plutonium",
+DoorsTab:AddButton({
+	Name = "MS Hub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()  
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()   
+
 end 
 })
 
-BladeBallTab:AddButton({
-	Name = "Raven",
+DoorsTab:AddButton({
+	Name = "",
 	Callback = function()
       		loadstring(game:HttpGet("https://gist.githubusercontent.com/goinglikeatrainlol/c19adfa90a95db3fb8fcea27a87d3254/raw/8a84b455a0ad6eb75df333dfc7598916d0547eb8/mysticware%2520remake"))()  
 end 
 })
 
-BladeBallTab:AddButton({
+DoorsTab:AddButton({
 	Name = "PlaceHolder",
 	Callback = function()
       		  
