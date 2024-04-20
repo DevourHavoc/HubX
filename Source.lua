@@ -74,9 +74,16 @@ BedwarsTab:AddButton({
 end 
 })
 
--- MM2 Tab
-local MM2Tab = Window:MakeTab({
-	Name = "Murder Mystery 2",
+-- JB Tab
+local JBTab = Window:MakeTab({
+	Name = "Jailbreak",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+BedwarsTab:AddButton({
+	Name = "Project Auto",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+end 
 })
