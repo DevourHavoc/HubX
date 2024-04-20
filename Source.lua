@@ -64,3 +64,10 @@ BedwarsTab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end 
 })
+
+-- MM2 Tab
+local MM2Tab = Window:MakeTab({
+	Name = "Murder Mystery 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
