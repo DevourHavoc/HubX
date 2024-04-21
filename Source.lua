@@ -122,13 +122,13 @@ end
 DoorsTab:AddButton({
 	Name = "Coming soon!",
 	Callback = function()
-      		  
+      		  print("Coming soon!")
 end 
 })
 
 DoorsTab:AddButton({
 	Name = "Coming soon!",
 	Callback = function()
-      		  
+      		  print("Coming soon!")
 end 
 })
