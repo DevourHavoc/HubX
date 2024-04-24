@@ -4,7 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "HubX", HidePremium = false, SaveConf
 
 OrionLib:MakeNotification({
 	Name = "Made by Havoc",
-	Content = "Enjoy Exploiting!",
+	Content = "Enjoy using this Hub!",
 	Image = "rbxassetid://4483345998",
 	Time = 3
 })
@@ -20,9 +20,10 @@ CreditsTab:AddParagraph("Credits:","DevourHavoc, Owner & Head Developer.")
 
 CreditsTab:AddParagraph("Join our Discord!:","discord.gg/")
 
+
 -- Arsenal Tab
 local ArsenalTab = Window:MakeTab({
-	Name = "Arsenal",
+	Name = "Arsnea",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -31,20 +32,6 @@ ArsenalTab:AddButton({
 	Name = "TbaoHub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()  
-end 
-})
-
-ArsenalTab:AddButton({
-	Name = "Darkrai X",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter', true))()  
-end 
-})
-
-ArsenalTab:AddButton({
-	Name = "Tect Menu",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()  
 end 
 })
 
@@ -62,21 +49,21 @@ BedwarsTab:AddButton({
 end 
 })
 
-BedwarsTab:AddButton({
-	Name = "Raven",
+-- BladeBall Tab
+local BBTab = Window:MakeTab({
+	Name = "BladeBall",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+BBTab:AddButton({
+	Name = "Place Holder",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/cocotv666/script/main/RavenB4Unpatched.lua"))()  
+      		loadstring(game:HttpGet("https://code4zaa.xyz/script/script-loader.lua"))()
 end 
 })
 
-BedwarsTab:AddButton({
-	Name = "Vape",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-end 
-})
-
--- JB Tab
+-- Jailbreak Tab
 local JBTab = Window:MakeTab({
 	Name = "Jailbreak",
 	Icon = "rbxassetid://4483345998",
@@ -87,20 +74,6 @@ JBTab:AddButton({
 	Name = "Universal Farm",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
-end 
-})
-
-JBTab:AddButton({
-	Name = "Project Auto",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
-end 
-})
-
-JBTab:AddButton({
-	Name = "TempCode",
-	Callback = function()
-      		loadstring(game:HttpGet("https://dropfarms.xyz/free.lua"))()
 end 
 })
 
@@ -119,16 +92,3 @@ DoorsTab:AddButton({
 end 
 })
 
-DoorsTab:AddButton({
-	Name = "Coming soon!",
-	Callback = function()
-      		  print("Coming soon!")
-end 
-})
-
-DoorsTab:AddButton({
-	Name = "Coming soon!",
-	Callback = function()
-      		  print("Coming soon!")
-end 
-})
