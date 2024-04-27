@@ -23,7 +23,7 @@ CreditsTab:AddParagraph("Join our Discord!:","discord.gg/")
 
 -- Arsenal Tab
 local ArsenalTab = Window:MakeTab({
-	Name = "Arsnea",
+	Name = "Arsneal",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
